@@ -1,2 +1,2 @@
 # MHI2-to-MHS2
-Utility program to convert maps for a Volkswagen Group MHI2 MMI Unit to a map valid for the MHS2 MMI Unit.
+Utility program that converts maps made specifically from the MHI2 Units in VAG Vehicles to maps that are valid for MHS2 Units from VAG Vehicles (mostly seen in Audi)
