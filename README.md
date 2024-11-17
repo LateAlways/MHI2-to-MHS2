@@ -6,6 +6,7 @@ This converter converts about 89% of the map file. So, it will never actually wo
 
 ## How to use
 To use this, you need a map archive for MHI2 and you need to put it inside of a folder named `Input`. It should look like this
+
 ![{48E2A4BE-0ADF-46A4-88B1-FB03F24F8838}](https://github.com/user-attachments/assets/ac45b2ef-d5d3-4a02-ab49-daec5b1d40ea)
 
 Then, run `python main.py` (No dependencies required) and let it do its job. It should take around 10 to 20 seconds. You will then see the MHS2 version in the `Output` folder.
