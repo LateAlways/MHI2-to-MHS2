@@ -186,13 +186,15 @@ def run():
                 pre_do_file(os.path.join("Mib2", "NavDB", folder + "_" + get_var("region"), "0", "default", location),
                             os.path.join("database", get_var("region"), "map", "regions", folder, content_file["name"]))
 
+        # TODO: content.pkg and content.sig
+
         # Write hashes.txt
         with open(os.path.join(OUTPUT_DIR, "database", get_var("region"), "map", "regions", folder, "hashes.txt"),
                   "w") as f:
             f.write(output_hashes)
             f.close()
 
-    # TODO: content.pkg and content.sig
+
 
     print("Copying speech files...")
 
@@ -234,4 +236,6 @@ def run():
 
 if __name__ == "__main__":
     shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
+    shutil.rmtree("log.txt", ignore_errors=True)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     run()
