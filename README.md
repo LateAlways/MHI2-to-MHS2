@@ -12,4 +12,4 @@ To use this, you need a map archive for MHI2 and you need to put it inside of a 
 Then, run `python main.py` (No dependencies required) and let it do its job. It should take around 10 to 20 seconds. You will then see the MHS2 version in the `Output` folder.
 
 ## Disclaimer
-I have ABSOLUTELY NO IDEA if this would even work if the files were valid. My car is an MHS2 but its navigation system never actually initializes. (Probably due to missing hardware)
+I have ABSOLUTELY NO IDEA if this would even work if the files were valid. My car is an MHS2 but its navigation system never actually initializes.
