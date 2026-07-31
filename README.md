@@ -9,3 +9,4 @@ The one thing the converter cannot do is generate valid `content.sig` signature 
 
 # Usage
 https://mibwiki.one/s/1010a74d-c48f-4123-9ea5-5bf7fd1a2607
+https://mibwiki.latealways.dev/MHS2%20Delphi/Updated%20MHS2%20maps%20after%20end%20of%20life/index.html
